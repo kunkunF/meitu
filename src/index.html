@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meitu美图官网-美图手机</title>
+    <link rel="stylesheet" href="lib/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/font/iconfont.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <!-- header容器 -->
+    <header id="header-container"></header>
+
+    <!-- main容器 -->
+    <main id="main-container">
+        <!-- 轮播图 -->
+        <div class="main-banner swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/5bea74215bb6c55062.jpg"></div>
+                <div class="swiper-slide"><img src="img/5cb3e96d3c4f346551.jpg"></div>
+                <div class="swiper-slide"><img src="img/5cd945047b78b89492.jpg"></div>
+            </div>
+            <!--分页器 -->
+            <div class="swiper-pagination"></div>
+            <!-- 导航按钮 -->
+            <div class="swiper-button-prev swiper-button-white"></div>
+            <div class="swiper-button-next swiper-button-white"></div>
+        </div>
+        <!-- list-container -->
+        <div class="list-container row">
+            <a href="#" class="thumbnail">
+                <img src="img/5c04fb7f0764744900.jpg">
+            </a>
+            <a href="#" class="thumbnail">
+                <img src="img/5bc9e6ec7287f29700.jpg">
+            </a>
+            <a href="#" class="thumbnail">
+                <img src="img/5bc9e7f959be891140.jpg">
+            </a>
+            <a href="#" class="thumbnail">
+                <img src="img/5b3228fc9ed4c86101.jpg">
+            </a>
+        </div>
+        <script type="text/html" id="">
+            <ul>
+                {{each list item}}
+                <li>
+                    <a href="{{item.url}}">
+                        <p><img src="{{item.image}}" alt=""></p>
+                        <p id="title">{{item.title}}</p>
+                        <p>{{item.price}}</p>
+                    </a>
+                </li>
+            </ul>
+        </script>
+    </main>
+    <!-- main结束 -->
+
+    <!-- footer容器 -->
+    <footer id="footer-container"></footer>
+    <script src="lib/requirejs/require.js" data-main="/js/index"></script>
+</body>
+
+</html>

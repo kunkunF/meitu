@@ -1,0 +1,84 @@
+@import "module/base.scss";
+@import "module/header.scss";
+@import "module/footer.scss";
+
+
+
+.mall-wrap {
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+
+    .mall-title {
+        max-width: 1200px;
+        height: 50px;
+        margin: 0 auto;
+        border-bottom: 1px solid;
+
+        p {
+            font-size: 18px;
+            line-height: 56px;
+            padding-left: 10px;
+        }
+    }
+
+    .content {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+
+        .mall-left {
+            padding-top: 35px;
+            width: 45%;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .mall-right {
+            width: 52.5%;
+            max-width: 600px;
+
+            .top {
+                padding: 60px 0 10px;
+                border-bottom: 1px solid;
+
+                .title {
+                    font-size: 24px;
+                }
+
+                .desc {
+                    margin: 20px 0;
+                    font-size: 16px;
+                }
+            }
+
+            .bottom {
+                border-radius: 4px 4px 0 0;
+                overflow: hidden;
+
+                .t {
+                    padding-top: 30px;
+                    margin: 0;
+
+                    p {
+                        font-size: 20px;
+                        padding-bottom: 15px;
+                    }
+                }
+            }
+
+            a {
+                width: 50%;
+                float: left;
+                height: 50px;
+                line-height: 50px;
+                text-align: center;
+                border: 1px solid;
+            }
+        }
+    }
+}

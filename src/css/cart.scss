@@ -1,0 +1,28 @@
+@import "module/base.scss";
+@import "module/header.scss";
+@import "module/footer.scss";
+
+.cart-title {
+    max-width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+    border-bottom: 1px solid;
+    p {
+        font-size: 18px;
+        line-height: 56px;
+        padding-left: 10px;
+    }
+
+}
+
+.date {
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    display: block;
+    span{
+        color: #555;
+        line-height: 400px;
+        font-size: 14px;
+    }
+}

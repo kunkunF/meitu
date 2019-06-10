@@ -1,0 +1,67 @@
+ <!-- <!DOCTYPE html> 
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>配件-美图官网</title>
+    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../lib/font/iconfont.css">
+    <link rel="stylesheet" href="../css/parts.css" />
+</head>
+
+<body>
+    header容器 
+    <header id="header-container"></header>
+     main容器
+    <main>
+        <div class="detail-wrap">
+            <div class="detail-title">
+                <p>配件</p>
+            </div>
+            <div class="detail-banner">
+                <a href="javascript:;"><img src="../img/5cd945047b78b89492.jpg" alt=""></a>
+            </div>
+            <div class="detail-menus">
+                <ul class="menus-nav nav">
+                    <li><a href="javascript:;">全部商品</a></li>
+                    <li><a href="javascript:;">充电器</a></li>
+                    <li><a href="javascript:;">手机壳</a></li>
+                    <li><a href="javascript:;">拍摄配件</a></li>
+                    <li><a href="javascript:;">生活周边</a></li>
+                </ul>
+            </div>
+             商品列表
+             <div class="detail-list row">
+                <ul class="detail-item">
+                    <li>
+                        <a href="/html/mall.html?id={{shop.id}}">
+                            <p class="item-img"><img src="../img/5b960864d493989553.jpg"></p>
+                            <p class="item-name" id="item-name">{{shop.name}}</p>
+                            <p class="item-price" id="item-price">￥{{shop.price}}</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <script type="text/html" id="index">
+                <ul>
+                    {{echo list shop}}
+                    <li>
+                        <a href="/html/mall.html?id={{shop.id}}">
+                            <p class="item-img"><img src="{{shop.img}}"></p>
+                            <p class="item-name" id="item-name">{{shop.name}}</p>
+                            <p class="item-price" id="item-price">￥{{shop.price}}</p>
+                        </a>
+                    </li>
+                    {{/echo}}
+                </ul>
+            </script>
+        </div>
+    </main>
+     footer容器
+    <footer id="footer-container"></footer>
+    <script src="/lib/requirejs/require.js" data-main="/js/parts.js"></script>
+</body>
+
+</html> -->
